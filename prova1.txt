@@ -1,8 +1,7 @@
 File di prova
 per testare l'uso
 
-questa è la miaprima modifica in
-un branch
+questa è la miaprima modifica 
 
 di gitHub
 ma voglio aggiornarlo
