@@ -1,0 +1,77 @@
+GIT and GITHUB
+
+1) Version Control -> take trace of revisioned file
+2) Collaboration -> give possibility to may people tyo put hand contemporarly on the project
+
+Git is different from GitHub
+Git: version control software invented by Torvald (Linux)
+Github: web service when you can do git things
+
+
+Github
+
+- Repository: project that can have multiple files (dashesinstead of spaces)
+	- Read me file: is a special kind of files that describes the content of the repository
+	
+	- Normal file: a lot of format supported, you can edit it directly there
+		- Commit: SAVE, change the file and save it
+			- on a new branch
+			- on the master branch 
+		- Edit: clicking on the pen icon, you can add in the file something and put in the space name of commit changes a comment on what you have modified
+			then press commit
+
+		- History: shows the various commits in time you can click on them and it shpws for each versione the modified things in green
+			the code near commit: 1nusdnun34n43ern9nernnf is the commit HASH, unique id for each file versions
+	
+		Each COMMIT has a COMMIT HASH
+
+
+- Branch: 
+	You can think of the uploaded versions as a linear list of updated versions
+	o -------> o --------> o
+      commit    commit     commit
+
+	If i want to experiment something new not modifying the main file
+
+	o -------> o -------->o  -----> MASTER
+				|
+				 -----> o NEW BRANCH 
+
+	On high-left you can click on the swith window and change from master to a new branch (you can create on the go) 
+	Then click edit 
+	And " o - commit directly in the new branch", not in the master.
+	The file will be duplicated and modified, the master will not be modified.
+
+
+
+	If the experiment gos to a good end?
+	Clicking on INSIGHTS -> NETWORK you can see the diagram of branches and commit
+
+	committing a file on a branch is called "PUSH a branch
+
+		- PULL REQUEST: on the main page where all the files are shown,
+				near to the branche there is the button "compare and pull request"  or "new pull request"
+				is a request to merge the changes made in the second branch into the master branch
+				You write the comment and made a pull request, the admin will examine it and can click on the button "Merge pull request"
+				Git will tell you what changes has been made etc.
+				You can see the result in insights -> network
+
+
+REMEMBER: you can change the branch from the main page, not from the file page
+REMEMBER: you can do edit only clicking the file from the main page, not from the versions pages
+REMEMBER: clicking commit you save the file into the branch...clicking on pull request you ask to admin to merge it with the master branch
+
+
+- Fork
+Imagine to have the list of commits with different branches starting from a repo.
+If i want to work on the repo in another project for example i can fork it, i crate a new instance of the repo whith a a perfect copy of the original, including the hostpry.
+If i like it i can make a PULL REQUEST to the admin of the original REPO.
+This is made automatically whe you want to edit a file and you are not admin for the Repository "Fork the file and edit"
+Or yu can on the main page click on "fork" and then work on the copies of the file.
+Once you modified in the MASTER BRANCH (change have to be recorded in the master branch), you can create a pull request for the riginal repo, allegating comments and descriptions
+The admin of the original repo/project will se in "pull requests" the request whith the changes ad decide to merge or not whith "Merge pull request" responding to comment of the uploader of the pull request.
+
+Video 1.4 is next...
+
+
+
